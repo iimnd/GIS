@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.ProgressBar;
 
 public class Splash extends Activity{
-   
+   //asgasgsagsaas
    private static int progress = 0;
    private int status = 0;
    ProgressBar progressBar;
