@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/rg_views"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/rb_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_rb_normal"
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/rb_hybrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_rb_hybrid" />
+ 
+        <RadioButton
+            android:id="@+id/rb_terrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_rb_terrain" />
+ 
+    </RadioGroup>
+    
+   <fragment 
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rg_views"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+   <TextView
+       android:id="@+id/info"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentRight="true"
+        android:background="@android:color/white"
+       android:layout_alignTop="@+id/map"
+       android:text="Current Location : " />
+ 
+</RelativeLayout>

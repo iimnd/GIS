@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fwontain.gis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+      <uses-permission android:name="android.permission.INTERNET" />  
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  
+   <uses-permission android:name="com.fwontain.gis.permission.MAPS_RECEIVE" />  
+   <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />  
+   <uses-feature  
+     android:glEsVersion="0x00020000"  
+     android:required="true" />  
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       <activity
+            android:name="com.fwontain.gis.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       
+       
+        <activity
+            android:name="com.fwontain.gis.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity 
+             android:name="com.fwontain.gis.Maps">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.List">
+         </activity> 
+         <activity 
+             android:name="com.fwontain.gis.Sma1">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma2">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma3">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma4">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma5">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma6">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma7">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma8">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma9">
+         </activity><activity 
+             android:name="com.fwontain.gis.Sma10">
+         </activity>
+         
+         
+         
+         <activity 
+             android:name="com.fwontain.gis.Profil1">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil1">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil2">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil2">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil3">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil3">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil4">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil4">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil5">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil5">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil6">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil6">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil7">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil7">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil8">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil8">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil9">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil9">
+         </activity>
+         <activity 
+             android:name="com.fwontain.gis.Profil10">
+         </activity>
+        <activity 
+             android:name="com.fwontain.androcrypto.Fasil10">
+         </activity>
+         <meta-data
+		android:name="com.google.android.maps.v2.API_KEY"
+		android:value="AIzaSyCzij9-xMO3mZDI7BZfVLedMlZdaQZmfsI"/>
+       <meta-data
+		android:name="com.google.android.gms.version"
+		android:value="@integer/google_play_services_version" /> 
+    </application>
+
+</manifest>

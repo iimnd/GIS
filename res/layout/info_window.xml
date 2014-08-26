@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#161670"
+    android:orientation="vertical" >
+    
+    
+    
+    
+      <TextView
+        android:id="@+id/tvlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvlang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvlat"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white" />
+    
+    
+    <TextView
+        android:id="@+id/posisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvlang"
+        android:layout_marginTop="10dp"
+        
+        android:textColor="@android:color/white"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/myloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/posisi"
+        android:layout_marginTop="10dp"
+        android:text="Lokasi Anda : "
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvlat"
+        android:layout_marginTop="40dp"
+        android:text="Start Tracking"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

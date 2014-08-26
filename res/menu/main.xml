@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search / will display always -->
+   
+    <!-- Help -->
+    <item android:id="@+id/action_start"
+          
+          android:title="@string/action_help"
+          android:showAsAction="never"/>
+     
+    <!-- Check updates -->
+    <item android:id="@+id/action_stop"
+          android:title="@string/action_check_updates"
+          android:showAsAction="never" />
+    
+     <item android:id="@+id/action_sharing"
+          android:title="@string/action_sharing"
+          android:showAsAction="never" />
+     <item android:id="@+id/action_ss"
+          android:title="@string/action_ss"
+          android:showAsAction="never" />
+</menu>

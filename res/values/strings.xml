@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GIS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_rb_normal">Normal</string>
+    <string name="str_rb_hybrid">Hybrid</string>
+    <string name="str_rb_terrain">Terrain</string>
+    <string name="action_help">Start Animation</string>
+    <string name="action_check_updates">Stop Animation</string>
+    <string name="action_sharing">Share</string>
+    <string name="action_ss">Ambil Screenshoot</string>
+<string name="info">Distance</string>
+</resources>
